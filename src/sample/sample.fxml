@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <DatePicker fx:id="datepick" layoutX="14.0" layoutY="68.0" />
+            <TextField fx:id="task" layoutX="232.0" layoutY="68.0" />
+            <Button layoutX="421.0" layoutY="68.0" mnemonicParsing="false" onAction="#buttonclicked" text="Add task" />
+            <TextArea fx:id="alltask" layoutX="23.0" layoutY="122.0" prefHeight="365.0" prefWidth="454.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
